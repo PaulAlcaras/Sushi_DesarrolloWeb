@@ -1,0 +1,93 @@
+/* General styles */
+body {
+  font-family: Arial, sans-serif; /* Fuente general de la aplicación */
+  margin: 0; /* Sin márgenes alrededor del body */
+  padding: 0; /* Sin padding alrededor del body */
+  background-color: #f7f7f7; /* Color de fondo suave */
+}
+
+.container {
+  padding: 20px; /* Espaciado interno del contenedor principal */
+}
+
+h1, h2 {
+  color: #333; /* Color del texto para encabezados h1 y h2 */
+}
+
+p {
+  color: #555; /* Color del texto para párrafos */
+}
+
+/* Navigation buttons */
+.navigation-buttons {
+  display: flex; /* Usa flexbox para alinear los botones de navegación */
+  justify-content: center; /* Centra los botones horizontalmente */
+  margin-top: 20px; /* Margen superior para separar de elementos superiores */
+}
+
+.nav-button {
+  background-color: #4CAF50; /* Color de fondo del botón */
+  border: none; /* Sin borde */
+  color: white; /* Color del texto en el botón */
+  padding: 10px 20px; /* Espaciado interno del botón */
+  margin: 0 10px; /* Espaciado lateral entre botones */
+  font-size: 16px; /* Tamaño de fuente del texto del botón */
+  cursor: pointer; /* Cambia el cursor al pasar el ratón */
+  transition: background-color 0.3s ease; /* Transición suave del color de fondo */
+}
+
+.nav-button:hover {
+  background-color: #45a049; /* Color de fondo más oscuro al pasar el ratón */
+}
+
+/* Sections styles */
+.cart-container, .payment-container, .admin-container {
+  max-width: 600px; /* Ancho máximo de las secciones */
+  margin: 40px auto; /* Margen superior e inferior, centrado horizontalmente */
+  padding: 20px; /* Espaciado interno de las secciones */
+  background-color: white; /* Color de fondo blanco para secciones */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para profundidad */
+  border-radius: 8px; /* Bordes redondeados */
+}
+
+.cart-container h1, .payment-container h1, .admin-container h1 {
+  font-size: 24px; /* Tamaño de fuente de los encabezados en las secciones */
+  margin-bottom: 20px; /* Margen inferior para separar de otros elementos */
+}
+
+/* Admin section styles */
+.admin-container {
+  text-align: center; /* Centrar texto dentro de la sección de administrador */
+}
+
+.admin-button {
+  margin-top: 20px; /* Margen superior para separar del contenido superior */
+  padding: 10px 20px; /* Espaciado interno del botón de administrador */
+  background-color: #ff5722; /* Color de fondo del botón de administrador */
+  color: white; /* Color del texto en el botón de administrador */
+  border: none; /* Sin borde */
+  border-radius: 4px; /* Bordes redondeados */
+  cursor: pointer; /* Cambia el cursor al pasar el ratón */
+  font-size: 16px; /* Tamaño de fuente del texto del botón de administrador */
+}
+
+.admin-button:hover {
+  background-color: #e64a19; /* Color de fondo más oscuro al pasar el ratón */
+}
+
+/* Checkout button styles */
+.checkout-button {
+  background-color: #2196F3; /* Color de fondo del botón de proceder al pago */
+  border: none; /* Sin borde */
+  color: white; /* Color del texto en el botón de pago */
+  padding: 12px 20px; /* Espaciado interno del botón de pago */
+  font-size: 18px; /* Tamaño de fuente del texto del botón de pago */
+  margin-top: 20px; /* Margen superior para separar de otros elementos */
+  cursor: pointer; /* Cambia el cursor al pasar el ratón */
+  border-radius: 4px; /* Bordes redondeados */
+  width: 100%; /* Ancho completo del botón de pago */
+}
+
+.checkout-button:hover {
+  background-color: #1976d2; /* Color de fondo más oscuro al pasar el ratón */
+}

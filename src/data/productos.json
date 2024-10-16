@@ -1,0 +1,23 @@
+{
+    "productos":[
+        {
+            "id": 1,
+            "name": "sushi 1",
+            "price": 10.990,
+            "quantity": 1
+        },
+        {
+            "id": 2,
+            "name": "sushi 2",
+            "price": 15.990,
+            "quantity": 1 
+        },
+        {
+            "id": 3,
+            "name": "sushi 3",
+            "price": 7.990,
+            "quantity": 1 
+        }
+    ]
+}
+

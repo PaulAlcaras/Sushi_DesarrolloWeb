@@ -1,0 +1,171 @@
+/* Estilos generales para el contenedor del carrito */
+
+header{
+    height: 50px;
+}
+
+img {
+    max-width: 60px; /* Ajusta el tamaño máximo */
+    height: auto; /* Mantiene la proporción */
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+.cart-container {
+    max-width: 800px; /* Ancho máximo del carrito */
+    margin: 20px auto; /* Centrado del carrito */
+    padding: 20px; /* Espaciado interno */
+    border: 4.5px solid #ff540c; /* Borde suave */
+    border-radius: 25px; /* Bordes redondeados */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra para profundidad */
+    background-color: white; /* Fondo blanco */
+}
+
+.botton-contenedor {
+    display: flex; /* Alinea los botones en una fila */
+    gap: 10px; /* Añade espacio entre los botones */
+    margin-top: 20px; /* Añade un margen superior */
+}
+
+.boton-num{
+    width: 30px;
+    background-color: white;
+    color: #0056b3;
+    font-size: 20px;
+}
+
+
+/* Estilo para cada elemento del carrito */
+.cart-item {
+    display: flex; /* Flexbox para organizar elementos */
+    align-items: center; /* Centra verticalmente */
+    justify-content: space-between; /* Espacio entre elementos */
+    margin-bottom: 15px; /* Espacio entre elementos */
+    padding: 10px; /* Espaciado interno */
+    color: black;
+    border-bottom: 1px solid #eee; /* Línea separadora */
+}
+
+/* Estilo para botones */
+button {
+    width: 40px; /* Ancho específico para botones de cantidad */
+    padding: 10px; /* Espaciado interno */
+    font-size: 16px; /* Tamaño de fuente */
+    color: white; /* Color del texto */
+    background-color: #007BFF; /* Color de fondo */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor */
+    margin: 0 5px; /* Espaciado entre botones */
+    transition: background-color 0.3s ease; /* Transición suave */
+}
+
+/* Hover para botones */
+button:hover {
+    background-color: #0056b3; /* Color más oscuro al pasar el ratón */
+}
+
+/* Estilo para el texto de eliminar */
+.remove-text {
+    color: #dc3545; /* Rojo como indicador de eliminación */
+    cursor: pointer; /* Cambia el cursor al pasar el ratón */
+    margin-left: 10px; /* Añade margen a la izquierda */
+    text-decoration: underline; /* Subrayado para que parezca un enlace */
+}
+
+/* Estilo para hover sobre el texto de eliminar */
+.remove-text:hover {
+    color: #c82333; /* Oscurece el color al pasar el ratón */
+}
+
+.checkout-button {
+    width: 200px; /* Ajusta el ancho de los botones */
+    height: 40px; /* Ajusta la altura de los botones */
+    font-size: 18px; /* Tamaño de fuente */
+    background-color: #218838;
+    color: white; /* Color del texto */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor */
+    transition: background-color 0.3s ease; /* Transición suave */
+    padding: 10px 20px; /* Ajusta el padding */
+    margin-left: 190px;
+    margin-right: 10px;
+}
+
+.comeback-btn {
+    width: 200px; /* Ajusta el ancho de los botones */
+    height: 40px; /* Ajusta la altura de los botones */
+    font-size: 18px; /* Tamaño de fuente */
+    background-color: #2c5bbe;
+    color: white; /* Color del texto */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor */
+    transition: background-color 0.3s ease; /* Transición suave */
+    padding: 10px 20px; /* Ajusta el padding */
+    margin-top: 20px;
+}
+
+/* Hover para botón de proceder al pago */
+.checkout-button:hover {
+    background-color: #156427; /* Color más oscuro al pasar el ratón */
+}
+
+/* Hover para botón para regresar al menú*/
+.comeback-btn:hover{
+    background-color: #2c5bbe; /* Color más oscuro al pasar el ratón */
+}
+
+/* Asegurarse de que no haya padding ni margen innecesarios */
+button, p{
+    margin: 0; /* Sin margen */
+    padding: 0; /* Sin padding */
+    color: black;
+}
+
+h3{
+    color: black;
+}
+
+h4{
+    color: black;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+h5{
+    color: black;
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.cart-controls {
+    display: flex;
+    align-items: center; /* Alinear verticalmente los elementos */
+    gap: 10px; /* Espaciado entre los controles */
+    padding: 5px 0; /* Ajusta el padding superior e inferior */
+}
+
+.cart-controls span {
+    margin: 0 15px; /* Espacio alrededor de la cantidad */
+}
+
+/* Estilo para el texto de eliminar */
+.remove-text {
+    color: #dc3545; /* Rojo como indicador de eliminación */
+    cursor: pointer; /* Cambia el cursor al pasar el ratón */
+    margin-left: 10px; /* Añade margen a la izquierda */
+    text-decoration: underline; /* Subrayado para que parezca un enlace */
+}
+
+/* Estilo para hover sobre el texto de eliminar */
+.remove-text:hover {
+    color: #c82333; /* Oscurece el color al pasar el ratón */
+}
+
+.admin-button:hover {
+    background-color: #0056b3; /* Color de fondo al pasar el ratón */
+}

@@ -1,0 +1,69 @@
+/* Estilos para los títulos h1 y h2 */
+h1, h2 {
+    color: white; /* El color del texto de los títulos será blanco */
+}
+
+/* Estilo para el contenedor del encabezado */
+header {
+    height: 50px; /* Establece la altura del encabezado */
+}
+
+/* Estilo para la imagen del logo dentro del header */
+img {
+    max-width: 60px; /* Limita el ancho máximo de la imagen a 60px */
+    height: auto; /* Mantiene la proporción de la imagen */
+    margin-left: 20px; /* Añade un margen a la izquierda de la imagen */
+    margin-top: 5px; /* Añade un margen superior a la imagen */
+}
+
+/* Estilos para el contenedor principal de la página de ingreso */
+.ingreso-container {
+    text-align: center; /* Centra el contenido dentro del contenedor */
+    padding: 40px; /* Añade un relleno de 40px alrededor del contenido */
+    background-color: #0d0a4f; /* Establece un fondo azul oscuro */
+    height: 80vh; /* Ocupa el 80% de la altura de la ventana gráfica */
+    display: flex; /* Usa flexbox para organizar el contenido */
+    flex-direction: column; /* Organiza los elementos de forma vertical */
+    justify-content: center; /* Centra verticalmente el contenido dentro del contenedor */
+}
+
+/* Estilo para el contenedor de los botones */
+.ingreso-buttons {
+    margin-top: 20px; /* Añade un margen superior de 20px sobre los botones */
+}
+
+/* Estilos para el primer botón de ingreso (Entrar al Menú) */
+.ingreso-button1 {
+    margin-right: 10px; /* Añade un margen derecho de 10px */
+    padding: 5px 20px; /* Añade un relleno de 5px arriba y abajo, 20px a los lados */
+    cursor: pointer; /* Cambia el cursor a pointer al pasar sobre el botón */
+    background-color: #38963d; /* Color de fondo verde del botón */
+    color: white; /* El texto dentro del botón será blanco */
+    border: none; /* Elimina cualquier borde del botón */
+    border-radius: 5px; /* Redondea los bordes del botón */
+    width: 15%; /* Establece el ancho del botón al 15% del contenedor */
+    margin-bottom: 10px; /* Añade un margen inferior de 10px */
+}
+
+/* Estilos para el segundo botón de ingreso (Entrar a Admin) */
+.ingreso-button2 {
+    margin-right: 10px; /* Añade un margen derecho de 10px */
+    padding: 5px 20px; /* Añade un relleno de 5px arriba y abajo, 20px a los lados */
+    cursor: pointer; /* Cambia el cursor a pointer al pasar sobre el botón */
+    background-color: #453bff; /* Color de fondo azul del botón */
+    color: white; /* El texto dentro del botón será blanco */
+    border: none; /* Elimina cualquier borde del botón */
+    border-radius: 5px; /* Redondea los bordes del botón */
+    width: 15%; /* Establece el ancho del botón al 15% del contenedor */
+    margin-bottom: 10px; /* Añade un margen inferior de 10px */
+}
+
+/* Estilos al pasar el cursor sobre el primer botón (hover) */
+.ingreso-button1:hover {
+    background-color: #1b691f; /* Cambia el color de fondo a un verde más oscuro cuando se hace hover */
+}
+
+/* Estilos al pasar el cursor sobre el segundo botón (hover) */
+.ingreso-button2:hover {
+    background-color: #1f17c2; /* Cambia el color de fondo a un azul más oscuro cuando se hace hover */
+}

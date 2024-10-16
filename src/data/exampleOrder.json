@@ -1,0 +1,20 @@
+{
+    "cliente": {
+        "nombre": "Juan Pérez",
+        "email": "juan.perez@example.com",
+        "direccion": "123 Calle Falsa"
+    },
+    "cart": [
+        {
+            "name": "Producto 1",
+            "price": 10.0,
+            "quantity": 2
+        },
+        {
+            "name": "Producto 2",
+            "price": 5.0,
+            "quantity": 1
+        }
+    ],
+    "total": 25.0
+}

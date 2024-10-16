@@ -1,0 +1,183 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif; /* Define la fuente general del documento */
+    margin: 0; /* Elimina el margen por defecto */
+    padding: 0; /* Elimina el padding por defecto */
+    background-color: #f4f4f4; /* Color de fondo de la página */
+}
+
+header {
+    height: 50px; /* Altura del encabezado */
+}
+
+img {
+    max-width: 60px; /* Ajusta el tamaño máximo de las imágenes */
+    height: auto; /* Mantiene la proporción de las imágenes */
+    margin-left: 20px; /* Margen a la izquierda de las imágenes */
+    margin-top: 5px; /* Margen en la parte superior de las imágenes */
+}
+
+/* Contenedor de pago */
+.payment-container {
+    max-width: 800px; /* Ancho máximo del contenedor de pago */
+    margin-top: 100px; /* Margen superior para separar del contenido anterior */
+    margin: 20px auto; /* Margen automático para centrar el contenedor */
+    background-color: white; /* Fondo blanco para el contenedor */
+    padding: 20px; /* Espaciado interno */
+    border: 4.5px solid #ff540c; /* Borde de color naranja */
+    border-radius: 25px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para dar profundidad */
+    width: 400px; /* Ancho del contenedor */
+    max-width: 100%; /* Asegura que no exceda el ancho de la pantalla */
+}
+
+.cart-container {
+    max-width: 800px; /* Ancho máximo del carrito */
+    margin: 20px auto; /* Centrado del carrito */
+    padding: 20px; /* Espaciado interno */
+    border: 4.5px solid #ff540c; /* Borde de color naranja */
+    border-radius: 25px; /* Bordes redondeados */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra para profundidad */
+    background-color: white; /* Fondo blanco */
+}
+
+/* Estilos de resumen de pago */
+.payment-summary {
+    text-align: center; /* Centra el texto */
+    margin-bottom: 20px; /* Margen inferior para separar del contenido siguiente */
+    font-weight: bold; /* Texto en negrita */
+    color: #333; /* Color del texto */
+    font-size: 18px; /* Tamaño de fuente */
+}
+
+/* Botones */
+button {
+    width: 40%; /* Ancho del botón */
+    height: 30px; /* Altura del botón */
+    padding: 15px 20px; /* Espaciado interno del botón */
+    font-size: 16px; /* Tamaño de fuente del botón */
+    color: white; /* Color del texto del botón */
+    background-color: #007BFF; /* Color de fondo del botón */
+    border: none; /* Sin borde */
+    border-radius: 6px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor a puntero */
+    margin-top: 10px; /* Margen superior */
+    transition: background-color 0.3s ease; /* Transición suave para el cambio de color */
+    margin-bottom: 10px; /* Margen inferior */
+}
+
+button:hover {
+    background-color: #0056b3; /* Color de fondo al pasar el ratón */
+}
+
+/* Botón de cancelar */
+button.boton-cancelar {
+    width: 50%; /* Ocupa todo el ancho */
+    height: 40px; /* Altura del botón */
+    font-size: 18px; /* Tamaño de fuente más grande */
+    color: white; /* Color del texto */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor a puntero */
+    margin-top: 20px; /* Margen superior */
+    transition: background-color 0.3s ease; /* Transición suave */
+    padding: 5px 10px; /* Espaciado interno */
+    margin-left: 25%; /* Margen a la izquierda para centrar */
+    display: block; /* Convertir a bloque */
+    margin: 0 auto; /* Centrado automático */
+    background-color: #dc3545; /* Color rojo para el botón */
+}
+
+button.boton-cancelar:hover {
+    background-color: #c82333; /* Color más oscuro al pasar el ratón */
+}
+
+/* Asegurarse de que no haya padding ni margen innecesarios */
+button, h1, h2 {
+    margin: 0; /* Elimina margen por defecto */
+    padding: 0; /* Elimina padding por defecto */
+}
+
+.boton-pagar {
+    width: 50%; /* Ocupa todo el ancho */
+    height: 40px; /* Altura del botón */
+    font-size: 18px; /* Tamaño de fuente más grande */
+    color: white; /* Color del texto */
+    background-color: #28a745; /* Color verde para proceder al pago */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor a puntero */
+    margin-top: 20px; /* Margen superior */
+    transition: background-color 0.3s ease; /* Transición suave */
+    padding: 5px 20px; /* Espaciado interno */
+    margin-left: 25%; /* Margen a la izquierda para centrar */
+    margin-bottom: 10px; /* Margen inferior */
+}
+
+/* Hover para botón de proceder al pago */
+.boton-pagar:hover {
+    background-color: #218838; /* Color más oscuro al pasar el ratón */
+}
+
+.boton-regresar {
+    width: 50%; /* Ocupa todo el ancho */
+    height: 40px; /* Altura del botón */
+    font-size: 18px; /* Tamaño de fuente más grande */
+    color: white; /* Color del texto */
+    background-color: #2c5bbe; /* Color azul para regresar */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor a puntero */
+    margin-top: 10px; /* Margen superior */
+    transition: background-color 0.3s ease; /* Transición suave */
+    padding: 5px 20px; /* Espaciado interno */
+    margin-left: 25%; /* Margen a la izquierda para centrar */
+}
+
+/* Hover para botón de regresar */
+.boton-regresar:hover {
+    background-color: #224694; /* Color más oscuro al pasar el ratón */
+}
+
+.boton-cancelar {
+    width: 50%; /* Ocupa todo el ancho */
+    height: 40px; /* Altura del botón */
+    font-size: 18px; /* Tamaño de fuente más grande */
+    color: white; /* Color del texto */
+    background-color: #dc3545; /* Color rojo para cancelar */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor a puntero */
+    margin-top: 10px; /* Margen superior */
+    transition: background-color 0.3s ease; /* Transición suave */
+    padding: 5px 20px; /* Espaciado interno */
+    margin-left: 25%; /* Margen a la izquierda para centrar */
+}
+
+.boton-cancelar:hover {
+    background-color: #c82333; /* Color más oscuro al pasar el ratón */
+}
+
+h4 {
+    color: black; /* Color del texto */
+    font-size: 30px; /* Tamaño de fuente */
+    margin-top: 20px; /* Margen superior */
+    margin-bottom: 15px; /* Margen inferior */
+    text-align: center; /* Centra el texto */
+}
+
+h5 {
+    color: black; /* Color del texto */
+    font-size: 25px; /* Tamaño de fuente */
+    margin-top: 20px; /* Margen superior */
+    margin-bottom: 15px; /* Margen inferior */
+    text-align: center; /* Centra el texto */
+}
+
+h6 {
+    margin-left: 20px; /* Margen a la izquierda */
+    font-size: 15px; /* Tamaño de fuente */
+    font-weight: 300; /* Peso de fuente ligero */
+    margin-top: 15px; /* Margen superior */
+    margin-bottom: 15px; /* Margen inferior */
+}

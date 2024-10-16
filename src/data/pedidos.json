@@ -1,0 +1,20 @@
+[
+    {
+        "email": "paula.alcaras@gmail.com",
+        "total": 26.980,
+        "productos": [
+            {
+                "id": 1,
+                "name": "sushi 1",
+                "price": 10.990,
+                "quantity": 1
+            },
+            {
+                "id": 2,
+                "name": "sushi 2",
+                "price": 15.990,
+                "quantity": 1
+            }
+        ]
+    }
+]
